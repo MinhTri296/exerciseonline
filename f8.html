@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java bacsic</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    var courses = [
+        {
+            id : 1,
+            name: "Trí", 
+            tuoi: 0
+        },
+        {
+            id: 2,
+            name: "viet",
+            tuoi: 0
+        }, 
+        {
+            id: 3,
+            name: "phi",
+            tuoi: 1
+        },
+        ];  
+        // courses.forEach(function(key) {
+        // console.log(key);});// hàm funtion gọi là hàm call back, giá trị key có thể khai báo bất kì (key )nó sẽ cho ra các phần tử của mảng, 
+        // // hay còn gọi là duyệt mảng
+        // isfree = courses.every(function(key) {
+        //     return key.tuoi === 0;
+        // });
+        // console.log(isfree); // every kiểm tra các phần tử của mảng;
+        function  courseshandle(course, index, originArr) {  //Hàm lấy tham số và trả về giá trị 
+            return course.name;
+            // {
+            //     id: courses.id,
+            //     name: `nguyen' ${course.name }`,
+            //     tuoi: `số tuổi ${course.tuoi}`, 
+            //     originArr : course,
+            // };
+        };
+        // newcourses = courses.map( courseshandle);  
+        // console.log(newcourses);         //trong map có 1 function nhé return phần tử mảng này == với các phần ở mảng cũ courses ; còn giá trị như thế nào thì mình sẽ sửa sau.
+                                         // mảng mới ta dùng map () để đi từng phần tử của mảng cũ để trả về giá trị của hàm coursehandle với phần tử hiện tại 
+                                         
+</script>

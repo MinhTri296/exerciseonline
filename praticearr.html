@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARRAY</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<script>
+    // bài 1;
+    // var myColor = ["Red", "Green", "White", "Black"];
+    // console.log(myColor.join("-"));
+    // console.log(myColor.toLocaleString());
+    // Bài 2: Viết một chương trình nhận một số nhập vào và chèn dấu (-) giữa 2  số chẵn. Ví dụ nếu bạn nhập vào 025468 thì kết quả của chương trình sẽ là 0-254-6-8.
+      let numbers = prompt(" Nhập vào số tự nhiên");    
+      let str = numbers
+      let result = [];
+      for ( let x  = 0; x < numbers.length; x++) {
+        if((str[x -1]  % 2 === 0) && (str[x] % 2 ===0)) {
+            result.push("-",str[x]);
+            }
+            else {
+                result.push(str[x]);
+            }
+        }
+        console.log(result.join(''));
+
+    // var str = 'nguYeN';
+    // var UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    // var LOWER = 'abcdefghijklmnopqrstuvwxyz';
+    // var result = [];
+
+    //   for(var x=0; x<str.length; x++)
+    //   {
+    //     if(UPPER.indexOf(str[x]) !== -1)
+    //     {
+    //       result.push(str[x].toLowerCase());
+    //     }
+    //     else if(LOWER.indexOf(str[x]) !== -1)
+    //     {
+    //       result.push(str[x].toUpperCase());
+    //     }
+    //     else 
+    //     {
+    //       result.push(str[x]);
+    //     }
+    //   }
+    // console.log(result.join(''));
+    // var a = ["Banana", "orange", "apple"];
+    // var b = ["chuối", "cam", "táo"];
+    // var dich = prompt("Nhập vào từ tìm kiếm");
+    // let count = 0;
+    // for (i = 0; i < a.length; i++) {
+
+    //     if (dich === a[i]) {
+    //         console.log(b[i]);
+    //         break;
+    //     } count++;
+    // }
+    // if (count == a.length) {
+    //     console.log("không tìm thấy")
+    // }
+
+</script>

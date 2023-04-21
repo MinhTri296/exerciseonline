@@ -4,20 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tính S(n) = 1^2 + 2^2 + … + n^2</title>
+    <title> Tính T(x, n) = x^n</title>
 </head>
 <body>
-    
 </body>
 </html>
 <script>
-    let sum = 0;
-    n = parseInt(prompt('Nhập số n'));
-    i = 1;
-    while( i <= n){
-        sum = sum + Math.pow(i,2);
-        i++;
-    }
-    alert(sum)
+    let pow = 0;
+    x = parseInt(prompt('Nhập x'));
+    n = parseInt(prompt('Nhập n'));
+    t = Math.pow(x,n);
+    alert(t);
 
 </script>
