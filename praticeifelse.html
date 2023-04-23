@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if else
+    </title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+   let user = prompt("Enter the user ?");
+   if (user == 'addmin'){
+    let password = prompt('Enter the password')
+    if(password == 'themaster') {
+        alert('wellcom');
+    }else if (password == null) {
+        alert('cancel');
+    }else {
+        alert(`i don't know you`)
+    }
+   }else if(user == null) {
+    alert ('cancel');
+   }else {
+    alert(` i don't know you`);
+   }
+   
+
+
+</script>
